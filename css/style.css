@@ -12,6 +12,7 @@
         --bs-secondary-color: #2929;
         --bs--secondary-dark-color: #c850c0     ;
         --bs-main-color: #fff;
+        --bs-secondary-blue-color:#29a9fd;
 }
 h1.h2.h3.h4.h5{
         font-family: 'Lexend '  sans-serif;
@@ -42,6 +43,13 @@ a{
 li{
         list-style: none;
 }
+/* nav  =================*/
+.nav-link{
+        color: var(--bs-main-color);
+}
+.nav-link:hover{
+        color: var(--bs-secondary-blue-color);
+}
 /*------------------ hero-section start------------------*/
 .hero-section.containser{
         display: grid;
@@ -57,4 +65,8 @@ li{
         height: auto;
         width: 60%;
         border-radius: 1rem;
+}
+.bg-color{
+        background-color: var(--bs-dark-color);
+
 }
