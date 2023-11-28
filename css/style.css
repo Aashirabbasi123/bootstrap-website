@@ -43,9 +43,15 @@ a{
 li{
         list-style: none;
 }
+button ,a{
+        font-size: 1.15rem!important;
+        letter-spacing: 0.03rem;
+        word-spacing: .1rem;
+}
 /* nav  =================*/
 .nav-link{
         color: var(--bs-main-color);
+        font-weight: bold;
 }
 .nav-link:hover{
         color: var(--bs-secondary-blue-color);
@@ -69,4 +75,7 @@ li{
 .bg-color{
         background-color: var(--bs-dark-color);
 
+}
+.text-light-grey{
+        color: var(--bs-main-color);
 }
